@@ -19,7 +19,7 @@ export default function App() {
   const [images, setImages] = useState([]);
   const [page, setPage] = useState(1);
   const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState(null);
+  const [, setError] = useState(null);
   const [largeImageURL, setLargeImageURL] = useState(null);
   const [hasMoreImages, setHasMoreImages] = useState(false);
   const perPage = 12;
