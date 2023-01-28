@@ -72,7 +72,7 @@ export default function App() {
       {images.length > 0 && (
         <ImageGallery onClick={openModal} images={images} />
       )}
-      {images.length > 0 && hasMoreImages && (
+      {hasMoreImages && ( // images.length > 0 &&
         <LoadMoreBtn loadMore={loadMoreImages} />
       )}
       {largeImageURL && (
